@@ -2,7 +2,7 @@
 
 import 'package:flutter/material.dart';
 
-const primaryColor = Color(0xFF2697FF);
+const primaryColor = Color.fromRGBO(221, 173, 103, 1);
 const secondaryColor = Color(0xFF2A2D3E);
 const bgColor = Color(0xFF212332);
 const fontColor = Color(0xFF6F7783);

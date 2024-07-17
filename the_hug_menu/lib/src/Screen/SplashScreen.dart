@@ -1,6 +1,8 @@
 // ignore_for_file: file_names
 import 'package:flutter/material.dart';
 
+import '../Utility/Constants.dart';
+
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
@@ -23,10 +25,7 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
       body: Container(
         decoration: const BoxDecoration(
-          image: DecorationImage(
-            image: AssetImage('assets/images/white_bg.jpg'),
-            fit: BoxFit.cover,
-          ),
+          color: primaryColor,
         ),
         child: Center(
           child: Column(
@@ -36,10 +35,10 @@ class _SplashScreenState extends State<SplashScreen> {
                 padding: const EdgeInsets.all(8),
                 child: Container(
                   width: 250,
-                  height: 70,
+                  height: 100,
                   decoration: const BoxDecoration(
                     image: DecorationImage(
-                      image: AssetImage('assets/images/LOGO03.png'),
+                      image: AssetImage('assets/images/logo.PNG'),
                       fit: BoxFit.fill,
                     ),
                   ),
