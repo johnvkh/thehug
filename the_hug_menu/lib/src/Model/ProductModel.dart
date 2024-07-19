@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 class ProductModel {
   String? productId;
   String? productName;
@@ -6,10 +8,10 @@ class ProductModel {
   String? image;
 
   ProductModel({
-    required productId,
-    required productName,
-    required price,
-    required productType,
-    required image,
+    this.productId,
+    this.productName,
+    this.price,
+    this.productType,
+    this.image,
   });
 }

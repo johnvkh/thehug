@@ -3,6 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
+import '../Utility/Constants.dart';
 import '../Utility/WidgetUtility.dart';
 
 class Footer extends StatelessWidget {
@@ -23,16 +24,16 @@ class Footer extends StatelessWidget {
                 child: Column(
                   children: [
                     TextWidget(
-                      "©The Hug. Powered by ULaoDev",
-                      Colors.grey,
+                      "©The Hug (ເດີຮັກ). ຂັບເຄື່ອນໂດຍ ULaoDev",
+                      primaryColor,
                       14,
                       FontWeight.normal,
                       TextAlign.center,
                     ),
                     const SizedBox(height: 5),
                     TextWidget(
-                      "All Rights Reserved 2024",
-                      Colors.grey,
+                      "ລິຂະສິດ 2024",
+                      primaryColor,
                       16,
                       FontWeight.normal,
                       TextAlign.center,
@@ -52,16 +53,16 @@ class Footer extends StatelessWidget {
                 child: Row(
                   children: [
                     TextWidget(
-                      "©The Hug. Powered by ULaoDev",
-                      Colors.grey,
+                      "©The Hug (ເດີຮັກ). ຂັບເຄື່ອນໂດຍ ULaoDev",
+                      primaryColor,
                       14,
                       FontWeight.normal,
                       TextAlign.center,
                     ),
                     const Expanded(child: SizedBox()),
                     TextWidget(
-                      "All Rights Reserved 2024",
-                      Colors.grey,
+                      "ລິຂະສິດ 2024",
+                      primaryColor,
                       16,
                       FontWeight.normal,
                       TextAlign.center,

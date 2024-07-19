@@ -1,6 +1,8 @@
 // ignore_for_file: file_names
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
+import 'package:the_hug_menu/src/Screen/Categorie/DrinkMenu.dart';
+import 'package:the_hug_menu/src/Screen/Categorie/RecommendeMenu.dart';
 import 'Footer.dart';
 import 'Header.dart';
 
@@ -28,7 +30,8 @@ class _HomePageState extends State<HomePage> {
             child: const Column(
               children: [
                 SizedBox(height: 50),
-                // BannerSlider(),
+                RecommendeMenu(),
+                DrinkMenu(),
                 // VideoWidget(),
                 // VideoSalonWidget(),
                 // SliderPromotionWidget(),

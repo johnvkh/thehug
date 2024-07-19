@@ -1,6 +1,8 @@
 // ignore_for_file: file_names, unused_field
 import 'package:flutter/material.dart';
 
+import '../Utility/Constants.dart';
+
 class Header extends StatefulWidget {
   const Header({
     super.key,
@@ -67,7 +69,7 @@ class _HeaderState extends State<Header> {
                   "The Hug",
                   style: TextStyle(
                     fontSize: 25,
-                    color: Colors.white,
+                    color: primaryColor,
                     fontWeight: FontWeight.normal,
                     fontFamily: 'Anton',
                   ),

@@ -15,10 +15,10 @@ Widget TextWidget(
       fontSize: fontSize,
       color: color,
       fontWeight: fontWeight,
-      fontFamily: 'roboto',
+      fontFamily: 'NotoSansLao',
     ),
     textAlign: textAlign,
-    maxLines: 3,
+    maxLines: 1,
     overflow: TextOverflow.ellipsis,
   );
 }
@@ -35,7 +35,7 @@ Widget TextButtonWidget(
     child: Text(
       content,
       style: TextStyle(
-        fontFamily: 'roboto',
+        fontFamily: 'NotoSansLao',
         color: color,
         fontSize: fontSize,
         fontWeight: fontWeight,
