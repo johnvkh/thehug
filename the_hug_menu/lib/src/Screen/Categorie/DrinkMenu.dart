@@ -202,7 +202,7 @@ class _DrinkMenuState extends State<DrinkMenu> {
                                 ),
                               ),
                               Padding(
-                                padding: const EdgeInsets.all(2.0),
+                                padding: const EdgeInsets.symmetric(horizontal: 2,vertical: 1),
                                 child: TextWidget(
                                   productModel.productName.toString(),
                                   Colors.black,
@@ -212,7 +212,7 @@ class _DrinkMenuState extends State<DrinkMenu> {
                                 ),
                               ),
                               Padding(
-                                padding: const EdgeInsets.all(2.0),
+                                padding: const EdgeInsets.symmetric(horizontal: 2,vertical: 1),
                                 child: TextWidget(
                                   productModel.price.toString(),
                                   Colors.redAccent,

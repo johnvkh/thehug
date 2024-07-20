@@ -2,7 +2,10 @@
 import 'package:flutter/material.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 import 'package:the_hug_menu/src/Screen/Categorie/DrinkMenu.dart';
+import 'package:the_hug_menu/src/Screen/Categorie/PhutMenu.dart';
 import 'package:the_hug_menu/src/Screen/Categorie/RecommendeMenu.dart';
+import 'package:the_hug_menu/src/Screen/Categorie/TumMenu.dart';
+import 'package:the_hug_menu/src/Screen/Categorie/YumMenu.dart';
 import 'Footer.dart';
 import 'Header.dart';
 
@@ -31,19 +34,10 @@ class _HomePageState extends State<HomePage> {
               children: [
                 SizedBox(height: 50),
                 RecommendeMenu(),
+                TumMenu(),
+                PhutMenu(),
+                YumMenu(),
                 DrinkMenu(),
-                // VideoWidget(),
-                // VideoSalonWidget(),
-                // SliderPromotionWidget(),
-                // GroupService(),
-                // Divider(color: Colors.grey),
-                // BarberWidget(),
-                // Divider(color: Colors.grey),
-                // MenuService(),
-                // Divider(color: Colors.grey),
-                // LocationWidget(),
-                // Divider(color: Colors.grey),
-                // FooterMenu(),
                 Footer(),
               ],
             ),

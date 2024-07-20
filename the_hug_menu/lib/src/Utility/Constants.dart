@@ -30,3 +30,4 @@ const kSecondaryColor = Color(0xFF29303D);
 String recommendeMenuType="1";
 String drinkMenuType="2";
 String tumMenuType="3";
+String phatMenuType="4";

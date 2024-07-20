@@ -1,5 +1,3 @@
-// ignore_for_file: file_names
-
 import 'package:flutter/material.dart';
 import 'package:responsive_grid/responsive_grid.dart';
 
@@ -8,108 +6,118 @@ import '../../Model/ProductModel.dart';
 import '../../Utility/Constants.dart';
 import '../../Utility/WidgetUtility.dart';
 
-class RecommendeMenu extends StatefulWidget {
-  const RecommendeMenu({super.key});
+class YumMenu extends StatefulWidget {
+  const YumMenu({super.key});
 
   @override
-  State<RecommendeMenu> createState() => _RecommendeMenuState();
+  State<YumMenu> createState() => _YumMenuState();
 }
 
-class _RecommendeMenuState extends State<RecommendeMenu> {
+class _YumMenuState extends State<YumMenu> {
   final List<ProductModel> _listProduct = [
     ProductModel(
       productId: "1",
-      productName: "ຍຳປາແຊວມ້ອນ",
-      price: "114.000 ກີບ",
-      productType: recommendeMenuType,
-      image: "assets/images/recommande/Yumsamon.jpg",
+      productName: "ຍຳຄໍຫມູຢ້າງ",
+      price: "69.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/YumMenu/YumKhoMuYang.jpg",
     ),
     ProductModel(
       productId: "2",
-      productName: "ຍຳໂຕ່ງ",
-      price: "78.000 ກີບ",
-      productType: recommendeMenuType,
-      image: "assets/images/recommande/YumTong.jpg",
+      productName: "ຍຳງົວເຜົາ",
+      price: "65.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/YumMenu/YumNguaPhao.jpg",
     ),
     ProductModel(
       productId: "3",
-      productName: "ຕຳຫອຍແຄງ",
+      productName: "ຍຳທະເລລວມ",
       price: "95.000 ກີບ",
-      productType: recommendeMenuType,
-      image: "assets/images/recommande/Tumhoikheng.jpg",
+      productType: tumMenuType,
+      image: "assets/images/YumMenu/YumLomThaLe.jpg",
     ),
     ProductModel(
       productId: "4",
-      productName: "ທອດປີກໄກ່",
-      price: "66.000 ກີບ",
-      productType: recommendeMenuType,
-      image: "assets/images/recommande/ThotPickKai.jpg",
+      productName: "ຍຳປາມຶກ",
+      price: "85.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/YumMenu/YumPaMuc.jpg",
     ),
     ProductModel(
       productId: "5",
-      productName: "ປີ້ງຄໍຫມູຢ້າງ",
-      price: "78.000 ກີບ",
-      productType: recommendeMenuType,
-      image: "assets/images/recommande/khormuyang.jpeg",
+      productName: "ຍຳຢໍ່",
+      price: "55.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/YumMenu/YumYor.jpg",
     ),
     ProductModel(
       productId: "6",
-      productName: "ປີ້ງເສືອຮ້ອງໄຫ້",
-      price: "82.000 ກີບ",
-      productType: recommendeMenuType,
-      image: "assets/images/recommande/pingsuahonghai.jpeg",
+      productName: "ຍຳວຸ້ນເສັ້ນໃສ່",
+      price: "69.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/YumMenu/YumVunSen.PNG",
     ),
     ProductModel(
       productId: "7",
-      productName: "ຜັດຫອຍແຄງ",
-      price: "102.000 ກີບ",
-      productType: recommendeMenuType,
-      image: "assets/images/recommande/PhatHoiKheng.jpg",
+      productName: "ຍຳວຸ້ນເສັ້ນ ທະເລລວມ",
+      price: "85.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/YumMenu/YumVunSenThaLe.PNG",
     ),
     ProductModel(
       productId: "8",
-      productName: "ເຂົ້າຜັດທະເລລວມ (ໃຫຍ່)",
-      price: "114.000 ກີບ",
-      productType: recommendeMenuType,
-      image: "assets/images/recommande/khaophatthaleYai.PNG",
+      productName: "ຍຳສະຫລັດລາວ",
+      price: "65.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/YumMenu/YumSalatLao.jpg",
     ),
-
-
     ProductModel(
       productId: "9",
-      productName: "ເຫັດເຂັມຊຸບແປ້ງທອດ",
-      price: "49.000 ກີບ",
-      productType: recommendeMenuType,
-      image: "assets/images/recommande/HetKhemSupPengThot.jpg",
+      productName: "ຍຳຫອຍນາງລົມຊົງເຄຶ່ອງ",
+      price: "79.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/YumMenu/YumHoiNangLomSongKhuang.jpg",
     ),
-
     ProductModel(
       productId: "10",
-      productName: "ຫອຍນາງລົມ (ໂຕ)",
-      price: "45.000 ກີບ",
-      productType: recommendeMenuType,
-      image: "assets/images/recommande/HoiNangLom.jpg",
+      productName: "ຍຳຫອຍແຄງ",
+      price: "85.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/YumMenu/YumHoiKheng.jpg",
     ),
-
-
     ProductModel(
       productId: "11",
-      productName: "ປານິນລາດພິກ",
-      price: "85.000 ກີບ",
-      productType: recommendeMenuType,
-      image: "assets/images/recommande/PhaNinLatPick.jpg",
+      productName: "ຍຳເລັບມືນາງ",
+      price: "59.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/YumMenu/YumLepMuNang.jpg",
     ),
-
     ProductModel(
       productId: "12",
-      productName: "ຊອຍຈຸ",
-      price: "85.000 ກີບ",
-      productType: recommendeMenuType,
-      image: "assets/images/recommande/SoiJu.jpg",
+      productName: "ຍຳແນມຫມູ",
+      price: "45.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/YumMenu/yumNemMuSot.jpg",
+    ),
+    ProductModel(
+      productId: "13",
+      productName: "ຍຳໄຂ່ຍ່ຽວມ້າ",
+      price: "59.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/YumMenu/YumKhaiYeuMa.jpg",
+    ),
+    ProductModel(
+      productId: "13",
+      productName: "ຍຳໄສ້ຕັນ",
+      price: "59.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/YumMenu/YumSaiTan.jpg",
     ),
   ];
+
   bool loadProcessBar = true;
-  List<ProductModel> listProduct=[];
+  List<ProductModel> listProduct = [];
+
   @override
   void initState() {
     // TODO: implement initState
@@ -123,6 +131,7 @@ class _RecommendeMenuState extends State<RecommendeMenu> {
       loadProcessBar = true;
     });
   }
+
   @override
   Widget build(BuildContext context) {
     var size = MediaQuery.of(context).size;
@@ -133,7 +142,7 @@ class _RecommendeMenuState extends State<RecommendeMenu> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           TextWidget(
-            "ເມນູແນະນຳ",
+            "ເມນູຍຳ",
             Colors.black87,
             20,
             FontWeight.bold,

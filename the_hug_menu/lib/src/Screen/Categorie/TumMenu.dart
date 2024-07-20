@@ -1,7 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:responsive_grid/responsive_grid.dart';
 
+import '../../ComponentsUtils/DialogPopupWidget.dart';
 import '../../Model/ProductModel.dart';
 import '../../Utility/Constants.dart';
+import '../../Utility/WidgetUtility.dart';
 
 class TumMenu extends StatefulWidget {
   const TumMenu({super.key});
@@ -131,6 +134,85 @@ class _TumMenuState extends State<TumMenu> {
 
   @override
   Widget build(BuildContext context) {
-    return const Placeholder();
+    var size = MediaQuery.of(context).size;
+    return loadProcessBar == true
+        ? Padding(
+      padding: const EdgeInsets.all(5.0),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          TextWidget(
+            "ເມນູຕຳ",
+            Colors.black87,
+            20,
+            FontWeight.bold,
+            TextAlign.start,
+          ),
+          const SizedBox(height: 5),
+          ResponsiveStaggeredGridList(
+            desiredItemWidth: size.width * 0.235,
+            children: List.generate(
+              listProduct.length,
+                  (index) {
+                ProductModel productModel = listProduct[index];
+                return Padding(
+                  padding: const EdgeInsets.only(bottom: 10),
+                  child: Container(
+                    width: size.width * 0.235,
+                    height: size.height * 0.15,
+                    decoration: BoxDecoration(
+                      color: const Color.fromRGBO(240, 243, 245, 1),
+                      border: Border.all(
+                        color: primaryColor,
+                      ),
+                      borderRadius: const BorderRadius.all(
+                        Radius.circular(8),
+                      ),
+                    ),
+                    child: Column(
+                      children: [
+                        ClipRRect(
+                          borderRadius: BorderRadius.circular(8.0),
+                          child: Padding(
+                            padding: const EdgeInsets.all(4.0),
+                            child: Image.asset(
+                              productModel.image.toString(),
+                              fit: BoxFit.cover,
+                              width: size.width * 0.235,
+                              height: size.height * 0.09,
+                            ),
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 2,vertical: 1),
+                          child: TextWidget(
+                            productModel.productName.toString(),
+                            Colors.black,
+                            12,
+                            FontWeight.normal,
+                            TextAlign.start,
+                          ),
+                        ),
+                        Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 2,vertical: 1),
+                          child: TextWidget(
+                            productModel.price.toString(),
+                            Colors.redAccent,
+                            12,
+                            FontWeight.normal,
+                            TextAlign.start,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                );
+              },
+            ),
+          ),
+        ],
+      ),
+    )
+        : LoadDialog(context);
   }
 }
