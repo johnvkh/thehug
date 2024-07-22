@@ -177,7 +177,7 @@ class _DrinkMenuState extends State<DrinkMenu> {
                         padding: const EdgeInsets.only(bottom: 10),
                         child: Container(
                           width: size.width * 0.235,
-                          height: size.height * 0.15,
+                          height: 300,
                           decoration: BoxDecoration(
                             color: const Color.fromRGBO(240, 243, 245, 1),
                             border: Border.all(
