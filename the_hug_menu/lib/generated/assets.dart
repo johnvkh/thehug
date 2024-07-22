@@ -2,7 +2,7 @@
 class Assets {
   Assets._();
 
-  static const String drink7Up = 'assets/images/drink/7Up.jpg';
+  static const String drink7up = 'assets/images/drink/7up.jpg';
   static const String drinkBeerLaoGreen = 'assets/images/drink/BeerLaoGreen.png';
   static const String drinkBeerlao = 'assets/images/drink/beerlao.png';
   static const String drinkCarlsberg = 'assets/images/drink/Carlsberg.jpg';
@@ -65,6 +65,25 @@ class Assets {
   static const String recommandeTumhoikheng = 'assets/images/recommande/Tumhoikheng.jpg';
   static const String recommandeYumTong = 'assets/images/recommande/YumTong.jpg';
   static const String recommandeYumsamon = 'assets/images/recommande/Yumsamon.jpg';
+  static const String thortMenuKhaijieu = 'assets/images/ThortMenu/khaijieu.jpg';
+  static const String thortMenuKoungSoupPengThort = 'assets/images/ThortMenu/koung_soup_peng_thort.jpg';
+  static const String thortMenuMudetdieu = 'assets/images/ThortMenu/Mudetdieu.jpg';
+  static const String thortMenuThortAnkai = 'assets/images/ThortMenu/thortAnkai.jpg';
+  static const String thortMenuThortAnluong = 'assets/images/ThortMenu/thortAnluong.jpg';
+  static const String thortMenuThortChiLor = 'assets/images/ThortMenu/ThortChiLor.jpg';
+  static const String thortMenuThortChiNai = 'assets/images/ThortMenu/thortChiNai.jpg';
+  static const String thortMenuThortKhaijieumusap = 'assets/images/ThortMenu/thort_khaijieumusap.jpg';
+  static const String thortMenuThortKhangPet = 'assets/images/ThortMenu/ThortKhangPet.jpg';
+  static const String thortMenuThortLoukSin = 'assets/images/ThortMenu/thort_louk_sin.jpg';
+  static const String thortMenuThortMakmounghinmapan = 'assets/images/ThortMenu/thort_makmounghinmapan.jpg';
+  static const String thortMenuThortMunfrance = 'assets/images/ThortMenu/thort_munfrance.jpg';
+  static const String thortMenuThortNguak = 'assets/images/ThortMenu/thort_nguak.jpg';
+  static const String thortMenuThortThongphunSamon = 'assets/images/ThortMenu/thort_thongphun_samon.jpg';
+  static const String thortMenuThortkaloukkhang = 'assets/images/ThortMenu/thortkaloukkhang.jpg';
+  static const String thortMenuThortnang = 'assets/images/ThortMenu/thortnang.jpg';
+  static const String thortMenuThortpikkainaloktek = 'assets/images/ThortMenu/thortpikkainaloktek.jpg';
+  static const String thortMenuThortthuadin = 'assets/images/ThortMenu/thortthuadin.jpg';
+  static const String tumMenuMumaknaokapi = 'assets/images/TumMenu/mumaknaokapi.jpg';
   static const String tumMenuTumKhaoPun = 'assets/images/TumMenu/TumKhaoPun.jpg';
   static const String tumMenuTumKungSod = 'assets/images/TumMenu/TumKungSod.jpg';
   static const String tumMenuTumLepMuNang = 'assets/images/TumMenu/TumLepMuNang.jpg';
@@ -73,9 +92,26 @@ class Assets {
   static const String tumMenuTumMeKhao = 'assets/images/TumMenu/TumMeKhao.jpg';
   static const String tumMenuTumMeeyy = 'assets/images/TumMenu/TumMeeyy.jpg';
   static const String tumMenuTumSamon = 'assets/images/TumMenu/TumSamon.jpg';
+  static const String tumMenuTumSenlon = 'assets/images/TumMenu/tumSenlon.jpg';
   static const String tumMenuTumTeng = 'assets/images/TumMenu/TumTeng.jpg';
   static const String tumMenuTumThat = 'assets/images/TumMenu/TumThat.jpg';
   static const String tumMenuTumlomthale = 'assets/images/TumMenu/Tumlomthale.jpg';
+  static const String tumMenuTumpamuc = 'assets/images/TumMenu/tumpamuc.jpg';
   static const String tumMenuTumton = 'assets/images/TumMenu/Tumton.jpg';
+  static const String yumMenuMuMaknaokapi = 'assets/images/YumMenu/muMaknaokapi.jpg';
+  static const String yumMenuYumHoiKheng = 'assets/images/YumMenu/YumHoiKheng.jpg';
+  static const String yumMenuYumHoiNangLomSongKhuang = 'assets/images/YumMenu/YumHoiNangLomSongKhuang.jpg';
+  static const String yumMenuYumKhaiYeuMa = 'assets/images/YumMenu/YumKhaiYeuMa.jpg';
+  static const String yumMenuYumKhoMuYang = 'assets/images/YumMenu/YumKhoMuYang.jpg';
+  static const String yumMenuYumLepMuNang = 'assets/images/YumMenu/YumLepMuNang.jpg';
+  static const String yumMenuYumLomThaLe = 'assets/images/YumMenu/YumLomThaLe.jpg';
+  static const String yumMenuYumNemMuSot = 'assets/images/YumMenu/yumNemMuSot.jpg';
+  static const String yumMenuYumNguaPhao = 'assets/images/YumMenu/YumNguaPhao.jpg';
+  static const String yumMenuYumPaMuc = 'assets/images/YumMenu/YumPaMuc.jpg';
+  static const String yumMenuYumSaiTan = 'assets/images/YumMenu/YumSaiTan.jpg';
+  static const String yumMenuYumSalatLao = 'assets/images/YumMenu/YumSalatLao.jpg';
+  static const String yumMenuYumVunSen = 'assets/images/YumMenu/YumVunSen.PNG';
+  static const String yumMenuYumVunSenThaLe = 'assets/images/YumMenu/YumVunSenThaLe.PNG';
+  static const String yumMenuYumYor = 'assets/images/YumMenu/YumYor.jpg';
 
 }

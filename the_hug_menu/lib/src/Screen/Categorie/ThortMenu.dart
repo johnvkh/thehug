@@ -6,153 +6,138 @@ import '../../Model/ProductModel.dart';
 import '../../Utility/Constants.dart';
 import '../../Utility/WidgetUtility.dart';
 
-class PhutMenu extends StatefulWidget {
-  const PhutMenu({super.key});
+class ThortMenu extends StatefulWidget {
+  const ThortMenu({super.key});
 
   @override
-  State<PhutMenu> createState() => _PhutMenuState();
+  State<ThortMenu> createState() => _ThortMenuState();
 }
 
-class _PhutMenuState extends State<PhutMenu> {
+class _ThortMenuState extends State<ThortMenu> {
   final List<ProductModel> _listProduct = [
     ProductModel(
       productId: "1",
-      productName: "ຜັດກະລ່ຳນ້ຳປາ",
-      price: "39.000 ກີບ",
-      productType: phatMenuType,
-      image: "assets/images/PhutMenu/PhatKalumPi.jpg",
+      productName: "ທອດຄາງເປັດ",
+      price: "48.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/ThortMenu/ThortKhangPet.jpg",
     ),
     ProductModel(
       productId: "2",
-      productName: "ຜັດກະເພົາຫມູ",
-      price: "55.000 ກີບ",
-      productType: phatMenuType,
-      image: "assets/images/PhutMenu/PhatKaPhaoMou.jpg",
+      productName: "ທອດຈີ່ນາຍ",
+      price: "35.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/ThortMenu/thortChiNai.jpg",
     ),
     ProductModel(
       productId: "3",
-      productName: "ຜັດກະເພົາກົບ",
-      price: "69.000 ກີບ",
-      productType: phatMenuType,
-      image: "assets/images/PhutMenu/PhatKaPhaoKop.jpg",
+      productName: "ທອດຈີ່ຫລໍ່",
+      price: "48.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/ThortMenu/ThortChiLor.jpg",
     ),
     ProductModel(
       productId: "4",
-      productName: "ຜັດກະເພົາທະເລ",
-      price: "85.000 ກີບ",
-      productType: phatMenuType,
-      image: "assets/images/PhutMenu/PhatKaPhaoThaLe.jpg",
+      productName: "ທອດດູກຂ້າງ",
+      price: "55.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/ThortMenu/thortkaloukkhang.jpg",
     ),
     ProductModel(
       productId: "5",
-      productName: "ຜັດຜັກກາດນາຫມູກອບ",
-      price: "55.000 ກີບ",
-      productType: phatMenuType,
-      image: "assets/images/PhutMenu/PhatPhucKatNa.jpg",
+      productName: "ທອດຖົ່ວດິນ",
+      price: "45.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/ThortMenu/thortthuadin.jpg",
     ),
     ProductModel(
       productId: "6",
-      productName: "ຜັດຂີງງົວ",
-      price: "55.000 ກີບ",
-      productType: phatMenuType,
-      image: "assets/images/PhutMenu/PhatKingNgoa.jpg",
+      productName: "ທອດປີກໄກ່ນະລົກແຕກ",
+      price: "65.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/ThortMenu/thortpikkainaloktek.jpg",
     ),
     ProductModel(
       productId: "7",
-      productName: "ຜັດຂີງໄກ່",
-      price: "45.000 ກີບ",
-      productType: phatMenuType,
-      image: "assets/images/PhutMenu/PhatKingKai.jpg",
+      productName: "ທອດພື້ນທ້ອງ ປາແຊວມ້ອນ",
+      price: "75.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/ThortMenu/thort_thongphun_samon.jpg",
     ),
     ProductModel(
       productId: "8",
-      productName: "ຜັດຂີງຫມູ",
+      productName: "ທອດມັນຝຣັ່ງ",
       price: "45.000 ກີບ",
-      productType: phatMenuType,
-      image: "assets/images/PhutMenu/PhatKingMu.jpg",
+      productType: tumMenuType,
+      image: "assets/images/ThortMenu/thort_munfrance.jpg",
     ),
     ProductModel(
       productId: "9",
-      productName: "ຜັດຂີ້ເມົາທະເລ",
-      price: "65.000 ກີບ",
-      productType: phatMenuType,
-      image: "assets/images/PhutMenu/PhatKhiMaoThaLe.jpg",
+      productName: "ທອດໄຂ່ຈຽວຫມູສັບ",
+      price: "45.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/ThortMenu/thort_khaijieumusap.jpg",
     ),
     ProductModel(
       productId: "10",
-      productName: "ຜັດຊີ້ນຫມູ",
-      price: "55.000 ກີບ",
-      productType: phatMenuType,
-      image: "assets/images/PhutMenu/PhatSinMu.jpg",
-    ),
-    ProductModel(
-      productId: "10",
-      productName: "ຜັດທະເລລວມພິກເຜົາ",
-      price: "90.000 ກີບ",
-      productType: phatMenuType,
-      image: "assets/images/PhutMenu/PhatThaLeLoumPikPhao.jpg",
+      productName: "ທອດເຫືອກ",
+      price: "45.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/ThortMenu/thort_nguak.jpg",
     ),
     ProductModel(
       productId: "11",
-      productName: "ຜັດຜັກບົ້ງໄຟແດງ",
-      price: "45.000 ກີບ",
-      productType: phatMenuType,
-      image: "assets/images/PhutMenu/PhatPhukBongFaiDang.jpg",
+      productName: "ຫມູແດດດຽວ",
+      price: "35.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/ThortMenu/Mudetdieu.jpg",
     ),
     ProductModel(
       productId: "12",
-      productName: "ຜັດຜັກລວມ",
-      price: "55.000 ກີບ",
-      productType: phatMenuType,
-      image: "assets/images/PhutMenu/PhatPhucLoum.jpg",
+      productName: "ທອດເມັດຫມາກມ່ວງ ຫິມະພານ",
+      price: "45.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/ThortMenu/thort_makmounghinmapan.jpg",
     ),
     ProductModel(
       productId: "13",
-      productName: "ຜັດຫອຍແມງຜູ່",
-      price: "85.000 ກີບ",
-      productType: phatMenuType,
-      image: "assets/images/PhutMenu/PhatHoiMengPhou.jpg",
+      productName: "ກຸ້ງຊຸບແປ້ງທອດ",
+      price: "89.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/ThortMenu/koung_soup_peng_thort.jpg",
     ),
     ProductModel(
       productId: "14",
-      productName: "ຜັດເຜັດກົບ",
-      price: "69.000 ກີບ",
-      productType: phatMenuType,
-      image: "assets/images/PhutMenu/PhatPhetKop.jpg",
+      productName: "ທອດລູກຊີນຊົງເຄື່ອງ",
+      price: "45.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/ThortMenu/thort_louk_sin.jpg",
     ),
-
     ProductModel(
       productId: "15",
-      productName: "ຜັດເຜັດງົວເຜົາ",
-      price: "59.000 ກີບ",
-      productType: phatMenuType,
-      image: "assets/images/PhutMenu/PhatPhetNguaPhao.jpg",
+      productName: "ທອດຫນັງ",
+      price: "48.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/ThortMenu/thortnang.jpg",
     ),
 
     ProductModel(
       productId: "16",
-      productName: "ຜັດເຜັດເປັດ",
+      productName: "ທອດເອັນໄກ່",
       price: "45.000 ກີບ",
-      productType: phatMenuType,
-      image: "assets/images/PhutMenu/PhatPhetPet.jpg",
+      productType: tumMenuType,
+      image: "assets/images/ThortMenu/thortAnkai.jpg",
     ),
 
     ProductModel(
-      productId: "17",
-      productName: "ຜັດເສືອຮ້ອງໄຫ້",
-      price: "65.000 ກີບ",
-      productType: phatMenuType,
-      image: "assets/images/PhutMenu/PhatSuaHongHai.jpg",
-    ),
-
-    ProductModel(
-      productId: "17",
-      productName: "ຜັດເຫັດລວມ",
-      price: "55.000 ກີບ",
-      productType: phatMenuType,
-      image: "assets/images/PhutMenu/PhatHetLum.jpg",
+      productId: "15",
+      productName: "ທອດເອັນເຫລືອງ",
+      price: "45.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/ThortMenu/thortAnluong.jpg",
     ),
   ];
+
 
   bool loadProcessBar = true;
   List<ProductModel> listProduct = [];
@@ -181,7 +166,7 @@ class _PhutMenuState extends State<PhutMenu> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           TextWidget(
-            "ເມນູຜັດ",
+            "ເມນູທອດ",
             Colors.black87,
             20,
             FontWeight.bold,

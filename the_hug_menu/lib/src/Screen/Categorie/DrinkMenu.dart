@@ -19,21 +19,21 @@ class _DrinkMenuState extends State<DrinkMenu> {
       productName: "ເບຍລາວແກວ",
       price: "25.000 ກີບ",
       productType: drinkMenuType,
-      image: "assets/images/Drink/beerlao.png",
+      image: "assets/images/drink/beerlao.png",
     ),
     ProductModel(
       productId: "2",
       productName: "ນ້ຳດື່ມ",
       price: "10.000 ກີບ",
       productType: drinkMenuType,
-      image: "assets/images/Drink/water.PNG",
+      image: "assets/images/drink/water.PNG",
     ),
     ProductModel(
       productId: "3",
       productName: "ເບຍລາວຂຽວ",
       price: "25.000 ກີບ",
       productType: drinkMenuType,
-      image: "assets/images/Drink/BeerLaoGreen.png",
+      image: "assets/images/drink/BeerLaoGreen.png",
     ),
     ProductModel(
       productId: "4",
@@ -100,17 +100,17 @@ class _DrinkMenuState extends State<DrinkMenu> {
     ),
     ProductModel(
       productId: "13",
-      productName: "ໂອອີຊິ",
-      price: "20.000 ກີບ",
+      productName: "ເປບຊີ",
+      price: "15.000 ກີບ",
       productType: drinkMenuType,
-      image: "assets/images/drink/Oishi.png",
+      image: "assets/images/drink/Pepsi.PNG",
     ),
     ProductModel(
       productId: "14",
       productName: "7up",
       price: "18.000 ກີບ",
       productType: drinkMenuType,
-      image: "assets/images/drink/7Up.jpg",
+      image: "assets/images/drink/7up.jpg",
     ),
     ProductModel(
       productId: "15",
@@ -177,7 +177,7 @@ class _DrinkMenuState extends State<DrinkMenu> {
                         padding: const EdgeInsets.only(bottom: 10),
                         child: Container(
                           width: size.width * 0.235,
-                          height: 300,
+                          height: boxHeight,
                           decoration: BoxDecoration(
                             color: const Color.fromRGBO(240, 243, 245, 1),
                             border: Border.all(
@@ -197,7 +197,7 @@ class _DrinkMenuState extends State<DrinkMenu> {
                                     productModel.image.toString(),
                                     fit: BoxFit.cover,
                                     width: size.width * 0.235,
-                                    height: size.height * 0.09,
+                                    height: boxImage,
                                   ),
                                 ),
                               ),

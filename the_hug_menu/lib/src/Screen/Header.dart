@@ -68,9 +68,9 @@ class _HeaderState extends State<Header> {
                 const Text(
                   "The Hug",
                   style: TextStyle(
-                    fontSize: 25,
+                    fontSize: 28,
                     color: primaryColor,
-                    fontWeight: FontWeight.normal,
+                    fontWeight: FontWeight.bold,
                     fontFamily: 'Anton',
                   ),
                   textAlign: TextAlign.center,

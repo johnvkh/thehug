@@ -4,6 +4,7 @@ import 'package:responsive_builder/responsive_builder.dart';
 import 'package:the_hug_menu/src/Screen/Categorie/DrinkMenu.dart';
 import 'package:the_hug_menu/src/Screen/Categorie/PhutMenu.dart';
 import 'package:the_hug_menu/src/Screen/Categorie/RecommendeMenu.dart';
+import 'package:the_hug_menu/src/Screen/Categorie/ThortMenu.dart';
 import 'package:the_hug_menu/src/Screen/Categorie/TumMenu.dart';
 import 'package:the_hug_menu/src/Screen/Categorie/YumMenu.dart';
 import 'Footer.dart';
@@ -37,6 +38,7 @@ class _HomePageState extends State<HomePage> {
                 TumMenu(),
                 PhutMenu(),
                 YumMenu(),
+                ThortMenu(),
                 DrinkMenu(),
                 Footer(),
               ],

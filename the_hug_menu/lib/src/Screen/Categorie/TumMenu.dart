@@ -86,18 +86,11 @@ class _TumMenuState extends State<TumMenu> {
       image: "assets/images/TumMenu/TumTeng.jpg",
     ),
     ProductModel(
-      productId: "10",
-      productName: "ຕຳຫມາກແຕງ",
-      price: "35.000 ກີບ",
-      productType: tumMenuType,
-      image: "assets/images/TumMenu/TumTeng.jpg",
-    ),
-    ProductModel(
       productId: "11",
-      productName: "ຕຳຫມີ່ໄວໄວ",
-      price: "55.000 ກີບ",
+      productName: "ຕຳເສັ້ນລ້ອນ",
+      price: "50.000 ກີບ",
       productType: tumMenuType,
-      image: "assets/images/TumMenu/TumMeeyy.jpg",
+      image: "assets/images/TumMenu/tumSenlon.jpg",
     ),
     ProductModel(
       productId: "12",
@@ -108,6 +101,13 @@ class _TumMenuState extends State<TumMenu> {
     ),
     ProductModel(
       productId: "13",
+      productName: "ຕຳປາມຶກ",
+      price: "85.000 ກີບ",
+      productType: tumMenuType,
+      image: "assets/images/TumMenu/tumpamuc.jpg",
+    ),
+    ProductModel(
+      productId: "14",
       productName: "ຕຳຫມີ່ຂາວ",
       price: "55.000 ກີບ",
       productType: tumMenuType,
@@ -159,7 +159,7 @@ class _TumMenuState extends State<TumMenu> {
                   padding: const EdgeInsets.only(bottom: 10),
                   child: Container(
                     width: size.width * 0.235,
-                    height: size.height * 0.15,
+                    height: boxHeight,
                     decoration: BoxDecoration(
                       color: const Color.fromRGBO(240, 243, 245, 1),
                       border: Border.all(
@@ -179,7 +179,7 @@ class _TumMenuState extends State<TumMenu> {
                               productModel.image.toString(),
                               fit: BoxFit.cover,
                               width: size.width * 0.235,
-                              height: size.height * 0.09,
+                              height: boxImage,
                             ),
                           ),
                         ),

@@ -150,7 +150,7 @@ class _RecommendeMenuState extends State<RecommendeMenu> {
                   padding: const EdgeInsets.only(bottom: 10),
                   child: Container(
                     width: size.width * 0.235,
-                    height: size.height * 0.15,
+                    height: boxHeight,
                     decoration: BoxDecoration(
                       color: const Color.fromRGBO(240, 243, 245, 1),
                       border: Border.all(
@@ -170,7 +170,7 @@ class _RecommendeMenuState extends State<RecommendeMenu> {
                               productModel.image.toString(),
                               fit: BoxFit.cover,
                               width: size.width * 0.235,
-                              height: size.height * 0.09,
+                              height: boxImage,
                             ),
                           ),
                         ),
