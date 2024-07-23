@@ -7,6 +7,8 @@ import 'package:the_hug_menu/src/Screen/Categorie/RecommendeMenu.dart';
 import 'package:the_hug_menu/src/Screen/Categorie/ThortMenu.dart';
 import 'package:the_hug_menu/src/Screen/Categorie/TumMenu.dart';
 import 'package:the_hug_menu/src/Screen/Categorie/YumMenu.dart';
+import 'Categorie/KoiTomMenu.dart';
+import 'Categorie/PingPaKhaoMenu.dart';
 import 'Footer.dart';
 import 'Header.dart';
 
@@ -39,6 +41,8 @@ class _HomePageState extends State<HomePage> {
                 PhutMenu(),
                 YumMenu(),
                 ThortMenu(),
+                KoiTomMenu(),
+                PingPaKhaoMenu(),
                 DrinkMenu(),
                 Footer(),
               ],

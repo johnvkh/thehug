@@ -34,3 +34,6 @@ String recommendeMenuType="1";
 String drinkMenuType="2";
 String tumMenuType="3";
 String phatMenuType="4";
+String thortMenuType="5";
+String koitomMenuType="6";
+String pingPaKhaoMenuType="7";
