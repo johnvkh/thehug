@@ -18,14 +18,14 @@ class _YumMenuState extends State<YumMenu> {
     ProductModel(
       productId: "1",
       productName: "ຍຳຄໍຫມູຢ້າງ",
-      price: "69.000 ກີບ",
+      price: "59.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/YumMenu/YumKhoMuYang.jpg",
     ),
     ProductModel(
       productId: "2",
       productName: "ຍຳງົວເຜົາ",
-      price: "65.000 ກີບ",
+      price: "78.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/YumMenu/YumNguaPhao.jpg",
     ),
@@ -53,7 +53,7 @@ class _YumMenuState extends State<YumMenu> {
     ProductModel(
       productId: "6",
       productName: "ຍຳວຸ້ນເສັ້ນໃສ່",
-      price: "69.000 ກີບ",
+      price: "55.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/YumMenu/YumVunSen.PNG",
     ),

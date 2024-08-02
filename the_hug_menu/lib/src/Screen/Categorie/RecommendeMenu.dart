@@ -20,61 +20,59 @@ class _RecommendeMenuState extends State<RecommendeMenu> {
     ProductModel(
       productId: "1",
       productName: "ຍຳປາແຊວມ້ອນ",
-      price: "114.000 ກີບ",
+      price: "95.000 ກີບ",
       productType: recommendeMenuType,
       image: "assets/images/recommande/Yumsamon.jpg",
     ),
     ProductModel(
       productId: "2",
       productName: "ຍຳໂຕ່ງ",
-      price: "78.000 ກີບ",
+      price: "65.000 ກີບ",
       productType: recommendeMenuType,
       image: "assets/images/recommande/YumTong.jpg",
     ),
     ProductModel(
       productId: "3",
       productName: "ຕຳຫອຍແຄງ",
-      price: "95.000 ກີບ",
+      price: "89.000 ກີບ",
       productType: recommendeMenuType,
       image: "assets/images/recommande/Tumhoikheng.jpg",
     ),
     ProductModel(
       productId: "4",
       productName: "ທອດປີກໄກ່",
-      price: "66.000 ກີບ",
+      price: "59.000 ກີບ",
       productType: recommendeMenuType,
       image: "assets/images/recommande/ThotPickKai.jpg",
     ),
     ProductModel(
       productId: "5",
       productName: "ປີ້ງຄໍຫມູຢ້າງ",
-      price: "78.000 ກີບ",
+      price: "59.000 ກີບ",
       productType: recommendeMenuType,
       image: "assets/images/recommande/khormuyang.jpeg",
     ),
     ProductModel(
       productId: "6",
       productName: "ປີ້ງເສືອຮ້ອງໄຫ້",
-      price: "82.000 ກີບ",
+      price: "69.000 ກີບ",
       productType: recommendeMenuType,
       image: "assets/images/recommande/pingsuahonghai.jpeg",
     ),
     ProductModel(
       productId: "7",
       productName: "ຜັດຫອຍແຄງ",
-      price: "102.000 ກີບ",
+      price: "89.000 ກີບ",
       productType: recommendeMenuType,
       image: "assets/images/recommande/PhatHoiKheng.jpg",
     ),
     ProductModel(
       productId: "8",
       productName: "ເຂົ້າຜັດທະເລລວມ (ໃຫຍ່)",
-      price: "114.000 ກີບ",
+      price: "90.000 ກີບ",
       productType: recommendeMenuType,
       image: "assets/images/recommande/khaophatthaleYai.PNG",
     ),
-
-
     ProductModel(
       productId: "9",
       productName: "ເຫັດເຂັມຊຸບແປ້ງທອດ",
@@ -82,7 +80,6 @@ class _RecommendeMenuState extends State<RecommendeMenu> {
       productType: recommendeMenuType,
       image: "assets/images/recommande/HetKhemSupPengThot.jpg",
     ),
-
     ProductModel(
       productId: "10",
       productName: "ຫອຍນາງລົມ (ໂຕ)",
@@ -90,22 +87,33 @@ class _RecommendeMenuState extends State<RecommendeMenu> {
       productType: recommendeMenuType,
       image: "assets/images/recommande/HoiNangLom.jpg",
     ),
-
-
     ProductModel(
       productId: "11",
       productName: "ປານິນລາດພິກ",
-      price: "85.000 ກີບ",
+      price: "95.000 ກີບ",
       productType: recommendeMenuType,
       image: "assets/images/recommande/PhaNinLatPick.jpg",
     ),
-
     ProductModel(
       productId: "12",
       productName: "ຊອຍຈຸ",
       price: "85.000 ກີບ",
       productType: recommendeMenuType,
       image: "assets/images/recommande/SoiJu.jpg",
+    ),
+    ProductModel(
+      productId: "13",
+      productName: "ງົວປີ່ນ",
+      price: "70.000 ກີບ",
+      productType: recommendeMenuType,
+      image: "assets/images/recommande/NgaoPin.png",
+    ),
+    ProductModel(
+      productId: "14",
+      productName: "ອົບງົວ",
+      price: "55.000 ກີບ",
+      productType: recommendeMenuType,
+      image: "assets/images/recommande/Opngoa.png",
     ),
   ];
   bool loadProcessBar = true;

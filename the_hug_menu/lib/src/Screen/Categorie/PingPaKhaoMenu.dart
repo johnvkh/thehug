@@ -32,7 +32,7 @@ class _PingPaKhaoMenuState extends State<PingPaKhaoMenu> {
     ProductModel(
       productId: "3",
       productName: "ປີ້ງປາຫມຶກສົດ",
-      price: "75.000 ກີບ",
+      price: "89.000 ກີບ",
       productType: pingPaKhaoMenuType,
       image: "assets/images/PingPaKhaoMenu/PingPamuc.jpg",
     ),

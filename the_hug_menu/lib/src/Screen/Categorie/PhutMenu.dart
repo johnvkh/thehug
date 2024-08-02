@@ -74,7 +74,7 @@ class _PhutMenuState extends State<PhutMenu> {
     ProductModel(
       productId: "9",
       productName: "ຜັດຂີ້ເມົາທະເລ",
-      price: "65.000 ກີບ",
+      price: "69.000 ກີບ",
       productType: phatMenuType,
       image: "assets/images/PhutMenu/PhatKhiMaoThaLe.jpg",
     ),

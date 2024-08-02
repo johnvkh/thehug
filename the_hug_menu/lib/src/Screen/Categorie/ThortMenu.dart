@@ -18,7 +18,7 @@ class _ThortMenuState extends State<ThortMenu> {
     ProductModel(
       productId: "1",
       productName: "ທອດຄາງເປັດ",
-      price: "48.000 ກີບ",
+      price: "55.000 ກີບ",
       productType: thortMenuType,
       image: "assets/images/ThortMenu/ThortKhangPet.jpg",
     ),
@@ -32,7 +32,7 @@ class _ThortMenuState extends State<ThortMenu> {
     ProductModel(
       productId: "3",
       productName: "ທອດຈີ່ຫລໍ່",
-      price: "48.000 ກີບ",
+      price: "49.000 ກີບ",
       productType: thortMenuType,
       image: "assets/images/ThortMenu/ThortChiLor.jpg",
     ),
@@ -53,14 +53,14 @@ class _ThortMenuState extends State<ThortMenu> {
     ProductModel(
       productId: "6",
       productName: "ທອດປີກໄກ່ນະລົກແຕກ",
-      price: "65.000 ກີບ",
+      price: "69.000 ກີບ",
       productType: thortMenuType,
       image: "assets/images/ThortMenu/thortpikkainaloktek.jpg",
     ),
     ProductModel(
       productId: "7",
       productName: "ທອດພື້ນທ້ອງ ປາແຊວມ້ອນ",
-      price: "75.000 ກີບ",
+      price: "85.000 ກີບ",
       productType: thortMenuType,
       image: "assets/images/ThortMenu/thort_thongphun_samon.jpg",
     ),
@@ -132,7 +132,7 @@ class _ThortMenuState extends State<ThortMenu> {
     ProductModel(
       productId: "15",
       productName: "ທອດເອັນເຫລືອງ",
-      price: "45.000 ກີບ",
+      price: "49.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/ThortMenu/thortAnluong.jpg",
     ),

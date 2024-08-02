@@ -32,14 +32,14 @@ class _KoiTomMenuState extends State<KoiTomMenu> {
     ProductModel(
       productId: "3",
       productName: "ກ້ອຍປານິນ",
-      price: "75.000 ກີບ",
+      price: "85.000 ກີບ",
       productType: koitomMenuType,
       image: "assets/images/KoiTomMenu/koi_pa_nin.jpg",
     ),
     ProductModel(
       productId: "4",
       productName: "ກ້ອຍປານ້ຳຂອງ",
-      price: "75.000 ກີບ",
+      price: "95.000 ກີບ",
       productType: koitomMenuType,
       image: "assets/images/KoiTomMenu/koipanamkhong.jpg",
     ),
@@ -60,7 +60,7 @@ class _KoiTomMenuState extends State<KoiTomMenu> {
     ProductModel(
       productId: "7",
       productName: "ຕົ້ມສົ້ມປານິນ",
-      price: "75.000 ກີບ",
+      price: "85.000 ກີບ",
       productType: koitomMenuType,
       image: "assets/images/KoiTomMenu/tomsompanin.jpg",
     ),
@@ -144,7 +144,7 @@ class _KoiTomMenuState extends State<KoiTomMenu> {
     ProductModel(
       productId: "19",
       productName: "ລວກປາຫນັງ",
-      price: "75.000 ກີບ",
+      price: "79.000 ກີບ",
       productType: koitomMenuType,
       image: "assets/images/KoiTomMenu/LuakPaNang.jpg",
     ),

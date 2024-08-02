@@ -18,14 +18,14 @@ class _TumMenuState extends State<TumMenu> {
     ProductModel(
       productId: "1",
       productName: "ຕຳຕ່ອນ",
-      price: "69.000 ກີບ",
+      price: "65.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/TumMenu/Tumton.jpg",
     ),
     ProductModel(
       productId: "2",
       productName: "ຕຳຖາດ",
-      price: "95.000 ກີບ",
+      price: "89.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/TumMenu/TumThat.jpg",
     ),
@@ -46,14 +46,14 @@ class _TumMenuState extends State<TumMenu> {
     ProductModel(
       productId: "5",
       productName: "ຕຳເລັບມືນາງ",
-      price: "55.000 ກີບ",
+      price: "59.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/TumMenu/TumLepMuNang.jpg",
     ),
     ProductModel(
       productId: "6",
       productName: "ຕຳແຊວມ້ອນ",
-      price: "85.000 ກີບ",
+      price: "95.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/TumMenu/TumSamon.jpg",
     ),
@@ -74,7 +74,7 @@ class _TumMenuState extends State<TumMenu> {
     ProductModel(
       productId: "9",
       productName: "ຕຳກຸ້ງສົດ",
-      price: "75.000 ກີບ",
+      price: "79.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/TumMenu/TumKungSod.jpg",
     ),
