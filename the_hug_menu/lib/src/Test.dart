@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:pretty_qr_code/pretty_qr_code.dart';
 
@@ -24,19 +26,11 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.white,
       body: Center(
-
-        child: Container(
+        child: SizedBox(
           width: MediaQuery.of(context).size.width * 0.5,
           height: MediaQuery.of(context).size.height * 0.5,
           child: PrettyQrView.data(
             data: 'https://thehug-a1f1b.firebaseapp.com/',
-            decoration: const PrettyQrDecoration(
-
-              // image: PrettyQrDecorationImage(
-              //   fit: BoxFit.fitWidth,
-              //   image: AssetImage('assets/images/LOGO01.png'),
-              // ),
-            ),
           ),
         ),
       ),

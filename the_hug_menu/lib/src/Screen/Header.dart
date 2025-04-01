@@ -112,6 +112,7 @@ class _HeaderState extends State<Header> {
         _colorIcon = Colors.deepOrange;
         _opacity = 1;
       }
+      // ignore: deprecated_member_use
       _backgroundColor = Colors.white.withOpacity(_opacity!);
     });
   }

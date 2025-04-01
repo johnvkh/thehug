@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:responsive_grid/responsive_grid.dart';
 
@@ -60,14 +62,14 @@ class _KoiTomMenuState extends State<KoiTomMenu> {
     ProductModel(
       productId: "7",
       productName: "ຕົ້ມສົ້ມປານິນ",
-      price: "85.000 ກີບ",
+      price: "95.000 ກີບ",
       productType: koitomMenuType,
       image: "assets/images/KoiTomMenu/tomsompanin.jpg",
     ),
     ProductModel(
       productId: "8",
       productName: "ຕົ້ມສົ້ມປານ້ຳຂອງ",
-      price: "79.000 ກີບ",
+      price: "95.000 ກີບ",
       productType: koitomMenuType,
       image: "assets/images/KoiTomMenu/tomsompaNamKhong.jpg",
     ),
@@ -123,7 +125,7 @@ class _KoiTomMenuState extends State<KoiTomMenu> {
     ProductModel(
       productId: "16",
       productName: "ລວກງົວເຜົາ",
-      price: "65.000 ກີບ",
+      price: "85.000 ກີບ",
       productType: koitomMenuType,
       image: "assets/images/KoiTomMenu/luakNgua.jpg",
     ),
@@ -137,14 +139,14 @@ class _KoiTomMenuState extends State<KoiTomMenu> {
     ProductModel(
       productId: "18",
       productName: "ລວກປາມຶກ",
-      price: "79.000 ກີບ",
+      price: "85.000 ກີບ",
       productType: koitomMenuType,
       image: "assets/images/KoiTomMenu/luakpaMuc.jpg",
     ),
     ProductModel(
       productId: "19",
       productName: "ລວກປາຫນັງ",
-      price: "79.000 ກີບ",
+      price: "90.000 ກີບ",
       productType: koitomMenuType,
       image: "assets/images/KoiTomMenu/LuakPaNang.jpg",
     ),
@@ -158,7 +160,7 @@ class _KoiTomMenuState extends State<KoiTomMenu> {
     ProductModel(
       productId: "21",
       productName: "ລວກຫອຍແຄງ",
-      price: "90.000 ກີບ",
+      price: "95.000 ກີບ",
       productType: koitomMenuType,
       image: "assets/images/KoiTomMenu/luakHoiKheng.jpg",
     ),

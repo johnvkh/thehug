@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:responsive_grid/responsive_grid.dart';
 
@@ -39,7 +41,7 @@ class _PhutMenuState extends State<PhutMenu> {
     ProductModel(
       productId: "4",
       productName: "ຜັດກະເພົາທະເລ",
-      price: "85.000 ກີບ",
+      price: "95.000 ກີບ",
       productType: phatMenuType,
       image: "assets/images/PhutMenu/PhatKaPhaoThaLe.jpg",
     ),
@@ -53,7 +55,7 @@ class _PhutMenuState extends State<PhutMenu> {
     ProductModel(
       productId: "6",
       productName: "ຜັດຂີງງົວ",
-      price: "55.000 ກີບ",
+      price: "69.000 ກີບ",
       productType: phatMenuType,
       image: "assets/images/PhutMenu/PhatKingNgoa.jpg",
     ),
@@ -67,14 +69,14 @@ class _PhutMenuState extends State<PhutMenu> {
     ProductModel(
       productId: "8",
       productName: "ຜັດຂີງຫມູ",
-      price: "45.000 ກີບ",
+      price: "55.000 ກີບ",
       productType: phatMenuType,
       image: "assets/images/PhutMenu/PhatKingMu.jpg",
     ),
     ProductModel(
       productId: "9",
       productName: "ຜັດຂີ້ເມົາທະເລ",
-      price: "69.000 ກີບ",
+      price: "89.000 ກີບ",
       productType: phatMenuType,
       image: "assets/images/PhutMenu/PhatKhiMaoThaLe.jpg",
     ),
@@ -95,7 +97,7 @@ class _PhutMenuState extends State<PhutMenu> {
     ProductModel(
       productId: "11",
       productName: "ຜັດຜັກບົ້ງໄຟແດງ",
-      price: "45.000 ກີບ",
+      price: "55.000 ກີບ",
       productType: phatMenuType,
       image: "assets/images/PhutMenu/PhatPhukBongFaiDang.jpg",
     ),
@@ -124,7 +126,7 @@ class _PhutMenuState extends State<PhutMenu> {
     ProductModel(
       productId: "15",
       productName: "ຜັດເຜັດງົວເຜົາ",
-      price: "59.000 ກີບ",
+      price: "69.000 ກີບ",
       productType: phatMenuType,
       image: "assets/images/PhutMenu/PhatPhetNguaPhao.jpg",
     ),
@@ -140,7 +142,7 @@ class _PhutMenuState extends State<PhutMenu> {
     ProductModel(
       productId: "17",
       productName: "ຜັດເສືອຮ້ອງໄຫ້",
-      price: "65.000 ກີບ",
+      price: "69.000 ກີບ",
       productType: phatMenuType,
       image: "assets/images/PhutMenu/PhatSuaHongHai.jpg",
     ),

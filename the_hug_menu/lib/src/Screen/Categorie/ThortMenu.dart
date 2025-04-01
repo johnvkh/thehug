@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:responsive_grid/responsive_grid.dart';
 
@@ -18,7 +20,7 @@ class _ThortMenuState extends State<ThortMenu> {
     ProductModel(
       productId: "1",
       productName: "ທອດຄາງເປັດ",
-      price: "55.000 ກີບ",
+      price: "59.000 ກີບ",
       productType: thortMenuType,
       image: "assets/images/ThortMenu/ThortKhangPet.jpg",
     ),
@@ -32,7 +34,7 @@ class _ThortMenuState extends State<ThortMenu> {
     ProductModel(
       productId: "3",
       productName: "ທອດຈີ່ຫລໍ່",
-      price: "49.000 ກີບ",
+      price: "59.000 ກີບ",
       productType: thortMenuType,
       image: "assets/images/ThortMenu/ThortChiLor.jpg",
     ),
@@ -46,7 +48,7 @@ class _ThortMenuState extends State<ThortMenu> {
     ProductModel(
       productId: "5",
       productName: "ທອດຖົ່ວດິນ",
-      price: "45.000 ກີບ",
+      price: "55.000 ກີບ",
       productType: thortMenuType,
       image: "assets/images/ThortMenu/thortthuadin.jpg",
     ),
@@ -67,7 +69,7 @@ class _ThortMenuState extends State<ThortMenu> {
     ProductModel(
       productId: "8",
       productName: "ທອດມັນຝຣັ່ງ",
-      price: "45.000 ກີບ",
+      price: "55.000 ກີບ",
       productType: thortMenuType,
       image: "assets/images/ThortMenu/thort_munfrance.jpg",
     ),
@@ -81,21 +83,21 @@ class _ThortMenuState extends State<ThortMenu> {
     ProductModel(
       productId: "10",
       productName: "ທອດເຫືອກ",
-      price: "45.000 ກີບ",
+      price: "59.000 ກີບ",
       productType: thortMenuType,
       image: "assets/images/ThortMenu/thort_nguak.jpg",
     ),
-    ProductModel(
-      productId: "11",
-      productName: "ຫມູແດດດຽວ",
-      price: "35.000 ກີບ",
-      productType: thortMenuType,
-      image: "assets/images/ThortMenu/Mudetdieu.jpg",
-    ),
+    // ProductModel(
+    //   productId: "11",
+    //   productName: "ຫມູແດດດຽວ",
+    //   price: "35.000 ກີບ",
+    //   productType: thortMenuType,
+    //   image: "assets/images/ThortMenu/Mudetdieu.jpg",
+    // ),
     ProductModel(
       productId: "12",
       productName: "ທອດເມັດຫມາກມ່ວງ ຫິມະພານ",
-      price: "45.000 ກີບ",
+      price: "55.000 ກີບ",
       productType: thortMenuType,
       image: "assets/images/ThortMenu/thort_makmounghinmapan.jpg",
     ),
@@ -109,30 +111,28 @@ class _ThortMenuState extends State<ThortMenu> {
     ProductModel(
       productId: "14",
       productName: "ທອດລູກຊີນຊົງເຄື່ອງ",
-      price: "45.000 ກີບ",
+      price: "55.000 ກີບ",
       productType: thortMenuType,
       image: "assets/images/ThortMenu/thort_louk_sin.jpg",
     ),
     ProductModel(
       productId: "15",
       productName: "ທອດຫນັງ",
-      price: "48.000 ກີບ",
+      price: "59.000 ກີບ",
       productType: thortMenuType,
       image: "assets/images/ThortMenu/thortnang.jpg",
     ),
-
     ProductModel(
       productId: "16",
       productName: "ທອດເອັນໄກ່",
-      price: "45.000 ກີບ",
+      price: "59.000 ກີບ",
       productType: thortMenuType,
       image: "assets/images/ThortMenu/thortAnkai.jpg",
     ),
-
     ProductModel(
       productId: "15",
       productName: "ທອດເອັນເຫລືອງ",
-      price: "49.000 ກີບ",
+      price: "59.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/ThortMenu/thortAnluong.jpg",
     ),

@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:responsive_grid/responsive_grid.dart';
 
@@ -18,7 +20,7 @@ class _YumMenuState extends State<YumMenu> {
     ProductModel(
       productId: "1",
       productName: "ຍຳຄໍຫມູຢ້າງ",
-      price: "59.000 ກີບ",
+      price: "69.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/YumMenu/YumKhoMuYang.jpg",
     ),
@@ -53,21 +55,21 @@ class _YumMenuState extends State<YumMenu> {
     ProductModel(
       productId: "6",
       productName: "ຍຳວຸ້ນເສັ້ນໃສ່",
-      price: "55.000 ກີບ",
+      price: "65.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/YumMenu/YumVunSen.PNG",
     ),
     ProductModel(
       productId: "7",
       productName: "ຍຳວຸ້ນເສັ້ນ ທະເລລວມ",
-      price: "85.000 ກີບ",
+      price: "95.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/YumMenu/YumVunSenThaLe.PNG",
     ),
     ProductModel(
       productId: "8",
       productName: "ຍຳສະຫລັດລາວ",
-      price: "65.000 ກີບ",
+      price: "70.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/YumMenu/YumSalatLao.jpg",
     ),
@@ -81,7 +83,7 @@ class _YumMenuState extends State<YumMenu> {
     ProductModel(
       productId: "10",
       productName: "ຍຳຫອຍແຄງ",
-      price: "85.000 ກີບ",
+      price: "95.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/YumMenu/YumHoiKheng.jpg",
     ),
@@ -109,14 +111,14 @@ class _YumMenuState extends State<YumMenu> {
     ProductModel(
       productId: "14",
       productName: "ຍຳໄສ້ຕັນ",
-      price: "59.000 ກີບ",
+      price: "69.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/YumMenu/YumSaiTan.jpg",
     ),
     ProductModel(
       productId: "15",
       productName: "ຫມູຫມາກນາວກະປິ",
-      price: "59.000 ກີບ",
+      price: "65.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/YumMenu/muMaknaokapi.jpg",
     ),

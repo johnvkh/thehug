@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:responsive_grid/responsive_grid.dart';
 
@@ -46,14 +48,14 @@ class _PingPaKhaoMenuState extends State<PingPaKhaoMenu> {
     ProductModel(
       productId: "5",
       productName: "ປີ້ງຫອຍແຄງ",
-      price: "85.000 ກີບ",
+      price: "95.000 ກີບ",
       productType: pingPaKhaoMenuType,
       image: "assets/images/PingPaKhaoMenu/PingHoiKheng.jpg",
     ),
     ProductModel(
       productId: "6",
       productName: "ປີ້ງເຫັດ ທາປາແດກ",
-      price: "45.000 ກີບ",
+      price: "55.000 ກີບ",
       productType: pingPaKhaoMenuType,
       image: "assets/images/PingPaKhaoMenu/PingHetThaPaDek.jpg",
     ),
@@ -67,14 +69,14 @@ class _PingPaKhaoMenuState extends State<PingPaKhaoMenu> {
     ProductModel(
       productId: "8",
       productName: "ປູອັດວາຊາບິ",
-      price: "39.000 ກີບ",
+      price: "49.000 ກີບ",
       productType: pingPaKhaoMenuType,
       image: "assets/images/PingPaKhaoMenu/PuAtPaSaBi.jpg",
     ),
     ProductModel(
       productId: "9",
       productName: "ປາຊາບະລົມຄວັນ",
-      price: "75.000 ກີບ",
+      price: "95.000 ກີບ",
       productType: pingPaKhaoMenuType,
       image: "assets/images/PingPaKhaoMenu/PaSaBaLomKhoan.jpg",
     ),
@@ -88,14 +90,14 @@ class _PingPaKhaoMenuState extends State<PingPaKhaoMenu> {
     ProductModel(
       productId: "11",
       productName: "ປານິນປ້ຽວຫວານ",
-      price: "90.000 ກີບ",
+      price: "120.000 ກີບ",
       productType: pingPaKhaoMenuType,
       image: "assets/images/PingPaKhaoMenu/PaNinPieuVan.jpg",
     ),
     ProductModel(
       productId: "12",
       productName: "ປານິນຫນຶ້ງຫມາກນາວ",
-      price: "85.000 ກີບ",
+      price: "120.000 ກີບ",
       productType: pingPaKhaoMenuType,
       image: "assets/images/PingPaKhaoMenu/PaNinNungMakNao.jpg",
     ),
@@ -144,21 +146,21 @@ class _PingPaKhaoMenuState extends State<PingPaKhaoMenu> {
     ProductModel(
       productId: "19",
       productName: "ເຂົ້າຜັດ (ຫມູ,ໄກ່,ງົວ) (ນ້ອຍ)",
-      price: "45.000 ກີບ",
+      price: "55.000 ກີບ",
       productType: pingPaKhaoMenuType,
       image: "assets/images/PingPaKhaoMenu/KhaoPatMouKaiNguaNoi.jpg",
     ),
     ProductModel(
       productId: "20",
       productName: "ເຂົ້າຜັດ (ຫມູ,ໄກ່,ງົວ) (ໃຫຍ່)",
-      price: "75.000 ກີບ",
+      price: "85.000 ກີບ",
       productType: pingPaKhaoMenuType,
       image: "assets/images/PingPaKhaoMenu/KhaoPatMouKaiNguaYai.jpg",
     ),
     ProductModel(
       productId: "21",
-      productName: "ເຂົ້າຜັດທະເລລວມ (ນ້ອຍ)",
-      price: "49.000 ກີບ",
+      productName: "ເຂົ້າຜັດທະເລລວມ",
+      price: "90.000 ກີບ",
       productType: pingPaKhaoMenuType,
       image: "assets/images/PingPaKhaoMenu/KhaoPhatLuamThaLeNoi.jpg",
     ),

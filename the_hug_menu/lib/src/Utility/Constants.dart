@@ -27,8 +27,8 @@ const double titleFontSize = 18;
 const kAvatarColor = Color(0xffffdbc9);
 const kSecondaryColor = Color(0xFF29303D);
 
-double boxHeight=130;
-double boxImage=80;
+double boxHeight=140;
+double boxImage=85;
 
 String recommendeMenuType="1";
 String drinkMenuType="2";

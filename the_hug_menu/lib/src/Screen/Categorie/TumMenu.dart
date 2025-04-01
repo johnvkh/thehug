@@ -1,3 +1,5 @@
+// ignore_for_file: file_names
+
 import 'package:flutter/material.dart';
 import 'package:responsive_grid/responsive_grid.dart';
 
@@ -25,7 +27,7 @@ class _TumMenuState extends State<TumMenu> {
     ProductModel(
       productId: "2",
       productName: "ຕຳຖາດ",
-      price: "89.000 ກີບ",
+      price: "95.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/TumMenu/TumThat.jpg",
     ),
@@ -39,7 +41,7 @@ class _TumMenuState extends State<TumMenu> {
     ProductModel(
       productId: "4",
       productName: "ຕຳເຂົ້າປຸ້ນ",
-      price: "35.000 ກີບ",
+      price: "40.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/TumMenu/TumKhaoPun.jpg",
     ),
@@ -60,14 +62,14 @@ class _TumMenuState extends State<TumMenu> {
     ProductModel(
       productId: "7",
       productName: "ຕຳຫມາກຖົ່ວ",
-      price: "35.000 ກີບ",
+      price: "45.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/TumMenu/TumMakThoa.jpg",
     ),
     ProductModel(
       productId: "8",
       productName: "ຕຳຫມາກຫຸ່ງ",
-      price: "35.000 ກີບ",
+      price: "40.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/TumMenu/TumMakHung.jpg",
     ),
@@ -81,7 +83,7 @@ class _TumMenuState extends State<TumMenu> {
     ProductModel(
       productId: "10",
       productName: "ຕຳຫມາກແຕງ",
-      price: "35.000 ກີບ",
+      price: "45.000 ກີບ",
       productType: tumMenuType,
       image: "assets/images/TumMenu/TumTeng.jpg",
     ),
